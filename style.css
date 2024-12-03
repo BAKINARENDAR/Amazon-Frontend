@@ -362,6 +362,12 @@ ul p{
     .navbar {
         flex-direction: column;
         height: auto;
+        align-items:flex-start;
+        padding: 10px;
+
+    }
+    .nav-logo{
+        margin-bottom: 10px;
     }
 
     .nav-search {
@@ -395,6 +401,8 @@ ul p{
 
     .hero-msg {
         margin-bottom: 40px;
+        font-size: 0.8rem;
+        padding: 5px;
     }
 
     footer {
@@ -430,14 +438,19 @@ ul p{
         flex-direction: column;
         height: auto;
     }
+    .shop-section{
+        padding: 10px 0;
+    }
+    
 
     .nav-search {
         width: 100%;
     }
 
     .box {
-        width: 100%;
+       width: 90%;
         margin-bottom: 20px;
+        margin:15px auto;
     }
 
     .panel {
